@@ -1,0 +1,112 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    text-align: center;
+    border: 1px solid grey;
+}
+
+footer {
+    height: 50px;
+    background-color: tan;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.avatar {
+    width: 300px;
+}
+
+.header_title {
+    font-size: 28px;
+}
+
+.header_subtitle {
+    font-size: 22px;
+    color: rgb(117, 42, 236);
+}
+
+.skills ul {
+    margin: 5px auto;
+    max-width: 25px;
+}
+
+.article>p {
+    font-style: italic;
+}
+
+.separator {
+    max-width: 50%;
+    height: 3px;
+    background-color: rgb(24, 207, 85);
+}
+
+.video iframe{
+    border: none;
+}
+
+.hobbies ol {
+    list-style: none;
+}
+
+.ed_table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 90%;
+}
+
+.ed_table th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.motivation {
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.quote {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form_control {
+    width: 100%;
+}
+
+.form_area {
+    width: 70%;
+}
+
+.form_submit {
+    display: block;
+    margin: 10px auto 15px;
+    padding: 7px;
+    font-weight: 700;
+    border-radius: 6px;
+
+}
+
+fieldset {
+    border-radius: 10px;
+    border: 1.5px solid;
+}
+
+.address a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}

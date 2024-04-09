@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV Page training</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="avatar.png" alt="my avatar" class="avatar">
+        <h1 class="header_title">Mikhail IP | CV training</h1>
+        <h2 class="header_subtitle">Frontend Developer</h2>
+    </header>
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list:</summary>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>TypeScript</li>
+                </ul>
+            </details>
+        </section>
+        <article class="short article">
+            <h4>Short article about me</h4>
+            <p>
+                Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Не все всеми дал,
+                напоивший заманивший которое ручеек! Использовало возвращайся речью инициал! Ведущими грустный собрал
+                диких знаках образ буквенных курсивных взгляд строчка. Текстов семь ее диких лучше образ которое
+                единственное реторический буквоград! Переписывается, рукописи наш всемогущая своего инициал буквоград
+                грустный!
+            </p>
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="placehold_image">
+            <img src="https://placehold.co/250x250" alt="placehold_image">
+            <img src="https://placehold.co/250x250" alt="placehold_image">
+            <hr class="separator">
+        </section>
+        <section class="video">
+            <iframe width="720" height="360"
+                src="https://www.youtube.com/embed/N-Fa1tm3oz0?list=PLV9lBwGQ2FU1VOctyWifetyMMC-OTJ51e"
+                title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section class="hobbies">
+            <h3>My hobbies</h3>
+            <details>
+                <summary>Hobbies list:</summary>
+                <ol>
+                    <li>1. Swimming</li>
+                    <li>2. Fighting</li>
+                    <li>3. Soccer</li>
+                </ol>
+            </details>
+            <hr class="separator">
+        </section>
+        <section class="education">
+            <table class="ed_table">
+                <thead>
+                    <tr>
+                        <th>School / University</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>IT School 1</td>
+                        <td>Angular Dev</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>University 1</td>
+                        <td>React Dev</td>
+                        <td>2020</td>
+                    </tr>
+                </tbody>
+                <tfoot class="motivation">
+                    <tr>
+                        <td colspan="3">Soon...</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section class="quote">
+            <blockquote>
+                Действия - это единственный путь к успеху.
+            </blockquote>
+        </section>
+        <section class="interaction">
+            <form action="https://ya.ru" class="form" method="get" target="_blank">
+                <fieldset>
+                    <legend>Required fields</legend>
+                    <div>
+                        <label for="firstName-id">First name:</label>
+                        <input type="text" name="firstName" id="firstName-id" placeholder="first name"
+                            class="form_control" required>
+                    </div>
+                    <div>
+                        <label for="lastName-id">Last name:</label>
+                        <input type="text" name="firstName" id="lastName-id" placeholder="last name"
+                            class="form_control" required>
+                    </div>
+                    <div>
+                        <label for="email-id">Email:</label>
+                        <input type="text" name="email" id="email-id" placeholder="email" class="form_control" required>
+                    </div>
+                </fieldset>
+                <br>
+                <textarea name="questions" cols="30" rows="7" class="form_control form_area"
+                    placeholder="your questions..."></textarea>
+                <button type="submit" class="form_submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <address class="address">
+            <a href="mailto:mip-box@yandex.ru">mip-box@yandex.ru</a>
+            <br>
+            <a href="tel:+79296279250">+79296279250</a>
+        </address>
+    </footer>
+</body>
+
+</html>
