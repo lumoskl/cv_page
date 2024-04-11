@@ -1,109 +1,109 @@
-body {
+body{
     background-color: antiquewhite;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
-main {
+main{
+    border: 1px solid black;
     text-align: center;
-    border: 1px solid grey;
 }
 
-footer {
-    height: 50px;
+footer{
     background-color: tan;
+    height: 50px;
     text-align: center;
 }
 
-.avatar {
-    width: 300px;
-}
-
-.header_title {
+header h1{
     font-size: 28px;
 }
 
-.header_subtitle {
-    font-size: 22px;
-    color: rgb(117, 42, 236);
+header h2{
+    font-size: 23px;
+    color: rgb(110, 35, 196);
 }
 
-.skills ul {
-    margin: 5px auto;
+.avatar{
+    width: 300px;
+}
+
+.skills ul{
+    margin: 0 auto;
     max-width: 25px;
+    padding: 6px;
 }
 
-.article p {
+.article p{
     font-style: italic;
 }
 
-.separator {
-    max-width: 50%;
+.separator{
+    width: 50%;
+    background-color: rgb(12, 194, 67);
     height: 3px;
-    background-color: rgb(24, 207, 85);
 }
 
 .video iframe{
     border: none;
 }
 
-.hobbies ol {
+.hobbies ol{
     list-style: none;
+    padding: 1px;
+    margin: 3px;
 }
 
-.ed_table {
-    border-collapse: collapse;
+.ed_table{
     margin: auto;
     width: 90%;
+    border-collapse: collapse;
 }
 
-.ed_table th,
-td {
+.ed_table th, td{
     border: 1px solid black;
     padding: 10px;
 }
 
-.foot_table {
-    height: 50px;
+.ed_table tfoot{
+    font-size: 20px;
     font-weight: 700;
-    font-size: 18px;
 }
 
-.quote {
-    font-size: 30px;
-    font-weight: 500;
+.quote{
+    font-size: 23px;
     font-style: italic;
+    font-weight: 500;
 }
 
-.form {
+.form{
     width: 600px;
     margin: 0 auto;
 }
 
-.form_control {
+.form_control{
     width: 100%;
 }
 
-.form_area {
+.form_area{
     width: 70%;
 }
 
-.form_submit {
+fieldset{
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+
+.form_submit{
     display: block;
     margin: 10px auto 15px;
+    border-radius: 7px;
     padding: 7px;
     font-weight: 700;
-    border-radius: 6px;
-
 }
 
-fieldset {
-    border-radius: 10px;
-    border: 1.5px solid;
-}
-
-.address a {
+.contacts a{
     text-decoration: none;
-    font-weight: 500;
     color: black;
+    font-weight: 500;
 }

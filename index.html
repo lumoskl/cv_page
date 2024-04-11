@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CV Page training</title>
+    <title>CV Page</title>
 </head>
 
 <body>
     <header>
         <img src="avatar.png" alt="my avatar" class="avatar">
-        <h1 class="header_title">Mikhail IP | CV training</h1>
-        <h2 class="header_subtitle">Frontend Developer</h2>
+        <h1>Mikhail IP | CV page</h1>
+        <h2>Frontend Developer</h2>
     </header>
     <main>
         <section class="skills">
             <h3>Skills</h3>
             <details>
-                <summary>Skills list:</summary>
+                <summary>Skills list</summary>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -28,22 +28,19 @@
                 </ul>
             </details>
         </section>
-        
-        <article class="short article">
+
+        <article class="article">
             <h4>Short article about me</h4>
-            <p>
-                Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Не все всеми дал,
-                напоивший заманивший которое ручеек! Использовало возвращайся речью инициал! Ведущими грустный собрал
-                диких знаках образ буквенных курсивных взгляд строчка. Текстов семь ее диких лучше образ которое
-                единственное реторический буквоград! Переписывается, рукописи наш всемогущая своего инициал буквоград
-                грустный!
-            </p>
+            <p>Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные тексты. Букв языком рыбными
+                до журчит если диких страна, ему рукопись однажды лучше. Взгляд жизни, своего оксмокс все заголовок но
+                то большой встретил запятых вершину его лучше пустился подпоясал необходимыми жаренные пор продолжил
+                которой деревни наш решила знаках рыбного? Возвращайся, предупредила.</p>
         </article>
         <section class="gallery">
             <h3>Gallery</h3>
-            <img src="https://placehold.co/250x250" alt="placehold_image">
-            <img src="https://placehold.co/250x250" alt="placehold_image">
-            <img src="https://placehold.co/250x250" alt="placehold_image">
+            <img src="https:/placehold.co/250x250" alt="placehold_image">
+            <img src="https:/placehold.co/250x250" alt="placehold_image">
+            <img src="https:/placehold.co/250x250" alt="placehold_image">
             <hr class="separator">
         </section>
         <section class="video">
@@ -56,7 +53,7 @@
         <section class="hobbies">
             <h3>My hobbies</h3>
             <details>
-                <summary>Hobbies list:</summary>
+                <summary>Hobbies list</summary>
                 <ol>
                     <li>1. Swimming</li>
                     <li>2. Fighting</li>
@@ -76,17 +73,17 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>IT School 1</td>
+                        <td>IT School</td>
                         <td>Angular Dev</td>
                         <td>2019</td>
                     </tr>
                     <tr>
-                        <td>University 1</td>
+                        <td>University</td>
                         <td>React Dev</td>
                         <td>2020</td>
                     </tr>
                 </tbody>
-                <tfoot class="foot_table">
+                <tfoot>
                     <tr>
                         <td colspan="3">Soon...</td>
                     </tr>
@@ -99,36 +96,40 @@
             </blockquote>
         </section>
         <section class="interaction">
-            <form action="https://ya.ru" class="form" method="get" target="_blank">
+            <form action="https://ya.ru" method="get" class="form" target="_blank">
                 <fieldset>
                     <legend>Required fields</legend>
                     <div>
                         <label for="firstName-id">First name:</label>
-                        <input type="text" name="firstName" id="firstName-id" placeholder="first name"
+                        <input type="text" name=firstName" id="firstName-id" placeholder="first name"
                             class="form_control" required>
                     </div>
                     <div>
                         <label for="lastName-id">Last name:</label>
-                        <input type="text" name="firstName" id="lastName-id" placeholder="last name"
-                            class="form_control" required>
+                        <input type="text" name=lastName" id="lastName-id" placeholder="last name" class="form_control"
+                            required>
                     </div>
                     <div>
                         <label for="email-id">Email:</label>
-                        <input type="text" name="email" id="email-id" placeholder="email" class="form_control" required>
+                        <input type="text" name=email" id="email-id" placeholder="email" class="form_control" required>
                     </div>
                 </fieldset>
                 <br>
-                <textarea name="questions" cols="30" rows="7" class="form_control form_area"
+                <textarea name="area" cols="30" rows="7" class="form_control form_area"
                     placeholder="your questions..."></textarea>
-                <button type="submit" class="form_submit">Submit</button>
+                <button class="form_submit" type="submit">Submit</button>
             </form>
         </section>
     </main>
+
     <footer>
-        <address class="address">
-            <a href="mailto:mip-box@yandex.ru">mip-box@yandex.ru</a>
-            <br>
-            <a href="tel:+79296279250">+79296279250</a>
+        <address class="contacts">
+            <div>
+                <a href="mailto: mip-box@yandex.ru">mip-box@yandex.ru</a>
+            </div>
+            <div>
+                <a href="tel: +79296279250">+79296279250</a>
+            </div>
         </address>
     </footer>
 </body>
