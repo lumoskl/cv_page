@@ -1,6 +1,7 @@
 body {
     background-color: antiquewhite;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 main {
@@ -11,10 +12,6 @@ main {
 footer {
     height: 50px;
     background-color: tan;
-    text-align: center;
-}
-
-.header {
     text-align: center;
 }
 
@@ -36,7 +33,7 @@ footer {
     max-width: 25px;
 }
 
-.article>p {
+.article p {
     font-style: italic;
 }
 
@@ -66,7 +63,7 @@ td {
     padding: 10px;
 }
 
-.motivation {
+.foot_table {
     height: 50px;
     font-weight: 700;
     font-size: 18px;
